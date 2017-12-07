@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,inital-scale=2.0,user-scalabe=yes" />
+<title>网站头条</title>
+</head>
+<style type="text/css">
+.contanier{
+	width:100%
+	height:auto;
+	padding:10px;
+	font-size:15px;
+	border:1px solid black;
+}
+.serach{
+	width:100%;
+	height:auto;
+}
+.content{
+	width:100%;
+	height:auto;
+}
+table{
+	width:100%;
+	text-align:center;
+	border: 1px solid black;
+}
+tr{
+	border:1px solid black;
+}
+td{
+	border:1px solid black;
+}
+</style>
+<body>
+
+	<div class="contanier">
+		<div class="serach">
+			网站：
+			<select name="website">
+				<option>微博头条</option>
+				<option>百度头条</option>
+				<option>腾讯热搜</option>
+				<option>网易热搜</option>
+			</select>
+			时间：
+			<input type="date" value="2017-11-20">
+			
+			<button type="button" value="查询">查询</button>
+		</div>
+		<div class="content">
+			<table >
+				<tr>
+					<td>时间</td>
+					<td>网站</td>
+					<td>排名</td>
+					<td>内容</td>
+				</tr>
+				<tr>
+					<td>2017-11-20</td>
+					<td>sina</td>
+					<td>1</td>
+					<td>酷骑单车押金</td>
+				</tr>
+				<tr>
+					<td>2017-11-20</td>
+					<td>sina</td>
+					<td>2</td>
+					<td>忘记停车地点20年后重见</td>
+				</tr>
+				<tr>
+					<td>2017-11-20</td>
+					<td>sina</td>
+					<td>3</td>
+					<td>iPhone X的Animoji太好笑了</td>
+				</tr>
+				<tr>
+					<td>2017-11-20</td>
+					<td>sina</td>
+					<td>4</td>
+					<td>甜馨 王媛媛</td>
+				</tr>
+				<tr>
+					<td>2017-11-20</td>
+					<td>sina</td>
+					<td>5</td>
+					<td>小泡芙弹钢琴</td>
+				</tr>
+				<tr>
+					<td>2017-11-20</td>
+					<td>sina</td>
+					<td>6</td>
+					<td>微博健康达人</td>
+				</tr>
+				<tr>
+					<td>2017-11-20</td>
+					<td>sina</td>
+					<td>7</td>
+					<td>酷骑单车押金</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
